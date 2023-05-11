@@ -1,0 +1,9 @@
+
+findfile filename
+ If the file filename is found in its file directory tree rooted at ~, the server must
+return the filename, size(in bytes), and date created to the client and the
+client prints the received information on its terminal.
+ Note: if the file with the same name exists in multiple folders in the
+directory tree rooted at ~, the server sends information pertaining to
+the first successful search/match of filename
+ Else the client prints “File not found”
